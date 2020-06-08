@@ -1,9 +1,6 @@
 // Fig. 7.11: BubbleSort.java
 // Classificia os valores de um array em ordem crescente
 
-// Pacote no qual ele pertence
-package test;
-
 // Pacote de extenao de Java
 import javax.swing.*;
 
