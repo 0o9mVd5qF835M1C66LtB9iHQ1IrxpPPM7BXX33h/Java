@@ -1,8 +1,5 @@
 // Resolucao do exericicio 7.30 do livro de Java
 
-// Pacote que esta contido
-package finalles;
-
 // Pacote de extensao de Java
 import javax.swing.*;
 

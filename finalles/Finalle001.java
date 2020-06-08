@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.31 do livro de Java
 
-// Pacote que pertence
-package finalles;
-
 public class Finalle001 {
     
     // o metodo main inicia o aplicativo de Java

@@ -1,8 +1,5 @@
 // Resoluca do exercicio 7.23 do livro de Java
 
-// Pacote no qual o Finalle004 pertence.
-package finalles;
-
 // Pacotes de extensao de Java
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;

@@ -1,8 +1,5 @@
 // Resolucao do exericico 7.22 do livro de Java
 
-// Pacote que o contem
-package finalles;
-
 // Pacotes de extensao de Java
 import javax.swing.JOptionPane;
 

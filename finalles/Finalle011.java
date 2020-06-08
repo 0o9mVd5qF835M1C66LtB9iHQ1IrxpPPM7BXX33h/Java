@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.28 do livro de Java
 
-// Pacote no qual essa classe esta contida
-package finalles;
-
 // Pactoes de extensao de Java
 import javax.swing.*;
 

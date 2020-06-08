@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.18 do livro de Java
 
-// Pacote no qual ele pertence
-package finalles;
-
 // Classe de extensao de Java
 import javax.swing.JOptionPane;
 

@@ -1,14 +1,20 @@
-package test;
-
-public record teste() {
+public class Teste {
     
     public static void main( String args[] )
     {
-        int valor = (int) ( Math.random() * 1001 );
-        while ( valor != 1000 ) {
-            if ( valor == 1000 || valor == 0 ) {
-                System.out.println( valor );
+        int board[][] = new int[ 8 ][ 8 ];
+
+        for ( int contador = 0; contador < 8; contador++ )
+            for( int contador2 = 0; contador2 < 8; contador2++ )
+                board[ contador ][ contador2 ] = contador + contador2;
+
+        for ( int contador = 0; contador < 8; contador++ ) {
+            for( int contador2 = 0; contador2 < 8; contador2++ ) {
+                System.out.print( board[ contador ][ contador2 ] + " " );       
             }
+            System.out.println();
         }
+
+        System.out.println( board[ 0 ][ 7 ] );
     }
 }

@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.27 do livro de Java
 
-// Pacote no qual ele pertence
-package finalles;
-
 // Pacotes de extensao de Java
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;

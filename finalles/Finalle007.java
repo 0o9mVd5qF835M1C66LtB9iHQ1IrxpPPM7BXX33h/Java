@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.20 do livro de Java
 
-// Pacote no qual essa classe pertence
-package finalles;
-
 // Classes de extensoes de Java
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;

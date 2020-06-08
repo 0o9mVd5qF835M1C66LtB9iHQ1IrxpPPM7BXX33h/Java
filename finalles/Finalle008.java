@@ -1,8 +1,5 @@
 // Resolucao do exercicio 7.11 do livro de Java
 
-// Pacote no qual o Finalle008 pertence
-package finalles;
-
 // Pacote de extensao de Java
 import javax.swing.*;
 
