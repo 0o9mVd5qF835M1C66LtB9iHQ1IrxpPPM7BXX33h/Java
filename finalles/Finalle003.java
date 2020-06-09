@@ -84,8 +84,7 @@ public class Finalle003 {
                 board[ currentRow ][ currentColumn ] = 2;
 
                 output = "O cavalo e representado pelo valor 2\n\n";
-
-                // Esse for aninhado ira fazer com o que output vai mostre o estado atual do tabuleiro
+                
                 for ( int contadorA = 0; contadorA < board.length; contadorA++ ) {
                     for  ( int contadorB = 0; contadorB < board[ contadorA ].length; contadorB++ )
                         output += board[ contadorA ][ contadorB ] + " ";

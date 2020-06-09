@@ -7,7 +7,7 @@ public class Finalle012 {
 
     public static void main( String args[] )
     {
-        int N = 8;
+        final int N = 8;
         int board[][] = new int[ N ][ N ];
         inicializarArrayBidimensional( board );
         executa( board, N, 0 );

@@ -43,7 +43,7 @@ public class Finalle004 {
                     else
                         valoresSetados += Integer.toString( moveNumber ) + " ";
 
-                    // Seta previamente a posicao, para depois descobrir se ele nao passa do tabuleiro, ou que ele nao va para um lugar ja visitado.
+                    // Seta a posicao, para depois descobrir se ele nao passa do tabuleiro, ou que ele nao va para um lugar ja visitado.
                     currentRowAux = currentRow + vertical[ moveNumber ];
                     currentColumnAux = currentColumn + horizontal[ moveNumber ];
 
