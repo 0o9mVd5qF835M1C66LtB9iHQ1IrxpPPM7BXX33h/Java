@@ -1,2 +1,2 @@
-# estudosDeJava
-Pasta onde contem meus exercicios feitos em um livro de Java.
+# Estudos De Java
+A folder containing my exercises done in Java.
