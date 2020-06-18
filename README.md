@@ -1,2 +1,2 @@
 # Java studies
-A folder containing my exercises done in Java.
+A folder containing my exercises in Java.
