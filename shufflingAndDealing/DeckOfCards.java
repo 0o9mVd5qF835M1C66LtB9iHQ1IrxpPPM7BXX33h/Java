@@ -22,8 +22,8 @@ public class DeckOfCards
 
         // populate deck with Card objects
         for ( int count = 0; count < deck.length; count++ )
-            decl[ count ] =
-                new Card( face[ count % 13 ], suit[ count / 13 ] );
+            deck[ count ] =
+                new Card( faces[ count % 13 ], suits[ count / 13 ] );
     } // end DeckOfCards constructor
 
     // shuffle deck of Cards with one-pass algorithm
@@ -39,9 +39,19 @@ public class DeckOfCards
             int second = randomNumbers.nextInt( NUMBER_OF_CARDS );
 
             // swap current Card with randomly selected Card
-            Card temp = deck[ frist ];
+            Card temp = deck[ first ];
             deck[ first ] = deck[ second ];
             deck[ second ] = temp;
         } // end for
     } // end method shuffle
-}
+
+    // deal one Card
+    public Card dealCard()
+    {
+        // determine whether Cards remain to be deal
+        if ( currentCard < deck.length )
+            return deck[ currentCard++ ]; // return current Card in array
+        else
+            return null; // return null to indicate that all Card were dealt
+    } // end method dealCard
+} // end class DeckOfCards
