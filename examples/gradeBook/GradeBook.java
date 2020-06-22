@@ -56,7 +56,7 @@ public class GradeBook
         int lowGrade = grades[ 0 ]; // assume grades[ 0 ] is smallest
 
         // loop through grades array
-        for ( itn grade : grades )
+        for ( int grade : grades )
         {
             // if grade lower than lowGrade, assign it to lowGrade
             if ( grade < lowGrade )
