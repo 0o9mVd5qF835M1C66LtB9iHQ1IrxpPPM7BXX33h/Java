@@ -1,6 +1,8 @@
 // drawSquare.java
 // An application that will create square-shaped spiral.
 
+package drawSquare;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;

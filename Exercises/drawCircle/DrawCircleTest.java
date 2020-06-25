@@ -1,5 +1,8 @@
 // DrawCircleTest.java
 // Test application to display a Circular spiral.
+
+package drawCircle;
+
 import javax.swing.JFrame;
 
 public class DrawCircleTest 

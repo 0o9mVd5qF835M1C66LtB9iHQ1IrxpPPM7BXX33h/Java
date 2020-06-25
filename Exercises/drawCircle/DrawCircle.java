@@ -1,6 +1,8 @@
 // DrawCircle.java
 // An application that will create a Circular spiral.
 
+package drawCircle;
+
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;

@@ -1,5 +1,8 @@
 // DrawSquareTest.java
 // Test application to display a Square-shaped spiral.
+
+package drawSquare;
+
 import javax.swing.JFrame;
 
 public class DrawSquareTest 
